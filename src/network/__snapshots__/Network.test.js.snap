@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App component it works 1`] = `
+<RCTSafeAreaView
+  accessibilityLabel="view"
+  emulateUnlessSupported={true}
+  style={
+    Object {
+      "backgroundColor": "#D0D0D0",
+      "flex": 1,
+    }
+  }
+>
+  <TextInput
+    onChangeText={[Function]}
+    placeholder="Search..."
+    style={
+      Object {
+        "backgroundColor": "#E0E0E0",
+        "height": 40,
+        "margin": 10,
+        "paddingLeft": 20,
+      }
+    }
+    underlineColorAndroid="transparent"
+    value=""
+  />
+  <RCTScrollView
+    data={Array []}
+    getItem={[Function]}
+    getItemCount={[Function]}
+    keyExtractor={[Function]}
+    onContentSizeChange={[Function]}
+    onLayout={[Function]}
+    onMomentumScrollBegin={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    showsVerticalScrollIndicator={false}
+    stickyHeaderIndices={Array []}
+    viewabilityConfigCallbackPairs={Array []}
+  >
+    <View />
+  </RCTScrollView>
+</RCTSafeAreaView>
+`;
